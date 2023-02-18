@@ -1,0 +1,82 @@
+.App{
+  width: 70%;
+  margin: auto;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.column{
+  width: 50%;
+  float: left;
+}
+
+h1, h2{
+  text-align: center;
+  font-weight: bolder;
+  color: #030303;
+}
+
+h3{
+  margin: 10px;
+  font-weight: bolder;
+}
+
+p{
+  margin: 10px 0px;
+}
+
+ul{
+  list-style: none;
+  padding: 0px;
+}
+
+#restaurants{
+  margin: 7%;
+  color: #ffffff;
+  font-weight: bold;
+}
+
+#name{
+  font-weight: bolder;
+  color: #030303;
+}
+
+.restaurant-buttons{
+  margin-top: 5px;
+}
+
+.restaurant-list{
+  margin-bottom: 12px;
+  text-align: center;
+  background-color: #000536;
+  padding: 12px;
+  border-radius: 12px;
+}
+
+#add-new{
+  text-align: center;
+}
+
+.starred-restaurant{
+  text-align: center;
+  color: white;
+  background-color: #797508;
+  padding: 12px;
+  margin-bottom: 12px;
+  border-radius: 12px;
+}
+
+/*Adding styling to the buttons, must remember to import them into the JS file accordingly*/
+.edit-btn, .save-btn, .delete-btn, .star-btn, .save, .unstar-btn  {
+  background-color: #000000;
+  color: #ffffff;
+}
+
+.edit-btn:hover, .save-btn:hover, .delete-btn:hover, .star-btn:hover, .save:hover, .unstar-btn:hover{
+  color: #ffffff;
+  text-shadow:
+    0 0 7px #fff,
+    0 0 10px #fff,
+    0 0 21px #fff,
+    0 0 42px #A9A,
+    0 0 82px #A9A
+}
