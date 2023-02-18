@@ -1,10 +1,10 @@
 # Jay-s_RESTful_Restaurant
 A Restaurant database where you can add, edit, delete and star your favourite restaurants using an online database API.
 
-##Server-Side API Calls to External APIs
+## Server-Side API Calls to External APIs
 In this tutorial, you will learn how to connect an external API to a Node.js back-end.
 
-###Project Setup
+### Project Setup
 To get started with this tutorial, make sure you download the starting and solution code. When you complete the steps in this tutorial, compare your code with the code in the solution-code folder and see how you did!
 
 The starting-code folder contains the following sub-folders:
@@ -25,7 +25,7 @@ Type y in the terminal prompt to use a different port.
 
 You are ready to get started with the tutorial steps! Note that the start command runs nodemon for the backend server and react-scripts for the frontend server. Any code changes you make in these folders will trigger the application to re-render automatically.
 
-###Tutorial Steps
+### Tutorial Steps
 In the following steps, we will be creating PostgreSQL tables in supabase and modifying backend/provider/supabase.js to connect to your supabase database. The variables that we create in supbase.js will be exported to use supabase providers, allowing us to authenticate with the external API and make calls to supabase.
 
 Before we start coding, you will want to familiarize yourself with the code of the following files in the starting-code folder:
@@ -35,7 +35,7 @@ These files contain the supabase provider initialization, as well as the back-en
 frontend/src
 The files in this folder contain the front-end code of the application, as well as the calls to the backend routes, which will make the calls to the external API.
 
-###Creating a Supabase Database
+### Creating a Supabase Database
 First, navigate to supabase and create an account by selecting the “Start your project” button.
 
 You will be asked to log in with your GitHub account. Follow the steps to allow supabase access to your GitHub account.
@@ -46,7 +46,7 @@ You will be prompted to first, name your organization, then to enter the name fo
 
 Supabase will take a couple of minutes to generate your project. After your project is created, navigate to the "Settings" tab and scroll down to "API" and make note of the "API URL" and "API Key" as we will need these later.
 
-###Setting up the client-side app
+### Setting up the client-side app
 
 1. Clone this repository to your local machine: 
 https://github.com/777Jaylee777/Jay-s_RESTful_Restaurant.git
